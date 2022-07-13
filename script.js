@@ -48,7 +48,7 @@ function showResult(score, playerChoice, computerChoice) {
     }
 
     handsDiv.innerText = `👱: ${playerChoice}  vs 🤖: ${computerChoice}`
-    playerScoreDiv.innerText = totalScore['playerScore']
+    playerScoreDiv.innerText = `Your Score: ${totalScore['playerScore']}`
 }
 
 // ** Calculate who won and show it on the screen **
